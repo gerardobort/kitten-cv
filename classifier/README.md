@@ -7,7 +7,7 @@ docker run -it -v `pwd`:/tf_files gcr.io/tensorflow/tensorflow:latest-devel
 
 ## Train model (from inside the docker image)
 ```
-./retrain.sh
+cd /tf_files/ && ./retrain.sh
 ```
 
 ## Test model (from inside the docker image)
